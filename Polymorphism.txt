@@ -1,0 +1,24 @@
+Polymorphism
+-------------
+polymorphism is a Greek word. where poly means many morphism means form or structures .if one thing is existed more than one form then it is called as polymorphism. the main advantage of polymorphism is flexibility to design a application.
+
+example1: we can use same absolute() method for int type, long type, float type..etc().
+
+example2: we can use parent reference to hold Objects.
+	  we can use the some list reference to hold ArrayList.
+	  Object, LinkedList, stack or vector Object.
+
+List l = new ArrayList();
+List l = new Vector();
+List l = new LinkedList();
+===========================================================================================================================================================================================
+										Polymorphism
+compiletime/static/earlybinding  														Runtime/Dynamic/late binding
+	     Overloading																Overriding
+
+Same name with different parameters	                                                                              what ever the parent has by default available for child through 															      inheritance, if the child is not satisfied with parent class method
+														      implementation then child  is allowed to redefine that parent class 														      method in child class in its own way this process is called overriding.
+														
+														      the parent class method which is overridden is called overridden method.
+
+														      the child class method which is overridden is called overriding method.
